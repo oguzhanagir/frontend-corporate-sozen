@@ -356,7 +356,7 @@ a {
     display: flex;
     text-align: center;
     margin-bottom: 15px;
-    margin-left: 127.18px;
+    margin-left: 180px;
   }
   .sirketin-hizmetleri-hakkinda-aciklama {
     width: 608.08px;
@@ -394,6 +394,7 @@ a {
     line-height: 22px;
     color: rgba(59, 60, 69, 1);
     text-align: center;
+    margin-left: 8px;
   }
   .renter-guides {
     margin-right: 146.22px;
@@ -411,7 +412,7 @@ a {
     display: flex;
     text-align: center;
     position: absolute;
-    left: 0;
+    left: 20px;
     bottom: -0.01px;
   }
   .icon-two {
@@ -422,7 +423,7 @@ a {
     width: 65.61px;
     height: 47.97px;
     margin-bottom: 49.12px;
-    margin-left: 127.11px;
+    margin-left: 157.11px;
   }
   .tel-oergue-imalat-ve-montaj {
     height: 14.91px;
@@ -434,27 +435,29 @@ a {
     color: rgba(59, 60, 69, 1);
     display: flex;
     text-align: center;
+    margin-left: 55px;
   }
 
 /* Services End */
 
 
 .feature-01 {
-    background-color: var(--ghost-white);
+    background-color: white;
     padding: 110px 165px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .text {
-    margin-bottom: 68px;
-    padding: 0 32px 0 0;
+    margin-bottom:  0px;
+    padding: 0 0px 0 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     position: relative;
+    
   }
-  .ueruenler {
+  .urunler {
     width: 12.15%;
     height: 42.68%;
     font-family: "Poppins";
@@ -463,7 +466,12 @@ a {
     line-height: 35px;
     color: var(--black);
     margin-bottom: 15px;
+    margin-left: 45px;
+    
   }
+
+  
+
   .flex-wrapper-one {
     display: flex;
     align-items: flex-start;
@@ -478,27 +486,32 @@ a {
     color: var(--dim-gray);
     margin-right: 457px;
   }
-  .tuem-ueruenleri-goeruentuele {
+  .tum-urunleri-goruntule {
     max-width: 214px;
-    width: 19.85%;
+    width:19.85%;
     height: 84.38%;
     font-family: "Poppins";
     font-size: 18px;
     font-weight: 600;
     line-height: normal;
-    color: var(--dodger-blue);
+    color: #0689FF;
     text-align: right;
-    margin-top: 5px;
+    
   }
+  .tum-urunleri-goruntule a{
+    color: #0689FF;
+    
+}
+
   .vector {
-    width: 0.72%;
+    width: 2.72%;
     height: 29.27%;
     position: absolute;
-    right: 16px;
-    top: 65px;
+    right: 20px;
+    top: 95px;
   }
   .card-01 {
-    background-color: var(--lavender);
+    background-color: #E6F0FF;
     border-radius: 12px;
     padding: 0 0 32px;
     box-shadow: 0 65px 80px -46px var(--transparent-lavender);
@@ -605,18 +618,54 @@ a {
     padding: 18px 35px 18px 39px;
     display: flex;
     align-items: center;
+    margin-left: 60px;
+    margin-bottom: 100px;
   }
-  .daha-fazla {
-    height: 24px;
-    width: 106px;
-    font-family: "Poppins";
-    font-size: 16px;
+
+  
+
+
+
+  ._header_online_content_btn-2:hover {
+    color: var(--bg2) !important;
+    border: 1px solid var(--bg2);
+    background: transparent;
+}
+
+._header_online_play_btn-2 {
+    width: 80px;
+    height: 20px;
+    border-radius: 12px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #0F1B4C;
+    -webkit-box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+    border: none;
+    transition:.2s all ease;
+    color: #fff;
+    font-family: Poppins;
     font-weight: 500;
-    line-height: normal;
-    color: rgba(255, 255, 255, 1);
-    display: flex;
-    text-align: center;
-  }
+    
+}
+
+
+._header_online_play_btn-2 path {
+    transition:.2s all ease;
+}
+._header_online_play_btn-2:hover path {
+    fill:#fff;
+}
+
+
+  
   .countdown {
     margin-left: 922px;
   }
