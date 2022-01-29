@@ -615,11 +615,10 @@ a {
   .button-sell-full-guidelines {
     background-color: rgba(15, 27, 76, 1);
     border-radius: 12px;
-    padding: 18px 35px 18px 39px;
     display: flex;
     align-items: center;
     margin-left: 60px;
-    margin-bottom: 100px;
+    
   }
 
   
@@ -633,8 +632,7 @@ a {
 }
 
 ._header_online_play_btn-2 {
-    width: 80px;
-    height: 20px;
+    padding: 18px 35px 18px 39px;
     border-radius: 12px;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -653,6 +651,7 @@ a {
     color: #fff;
     font-family: Poppins;
     font-weight: 500;
+    
     
 }
 
@@ -729,6 +728,7 @@ a {
     margin-bottom: 15px;
     opacity: 0.75;
   }
+  /*
   .button-get-started-now {
     background-color: rgba(255, 255, 255, 1);
     border-radius: 12px;
@@ -736,6 +736,7 @@ a {
     display: flex;
     align-items: center;
   }
+  */
   .iletisime-gecin {
     height: 20px;
     width: 97px;
@@ -747,4 +748,172 @@ a {
     display: flex;
     text-align: center;
   }
+
+  ._header_online_play_btn-3 {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+    padding: 14px 27px 16px;
+    display: flex;
+    align-items: center;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+    border: none;
+    transition:.2s all ease;
+    color: rgba(0, 35, 102, 1);
+    font-family: Poppins;
+    font-weight: 500;
+    
+    
+}
+
+
+._header_online_play_btn-3 path {
+    transition:.2s all ease;
+}
 /* Newsletter End */
+
+/* Footer */
+/*-----------------------------
+    Footer Online Section 
+------------------------------*/
+
+._footer_online_wrapper {
+    padding: 80px 0 50px 0;
+    
+}
+
+._footer_online_logo {
+    width: 70px;
+}
+
+._footer_online_list {
+    list-style: none;
+}
+
+._footer_online_list_wrap {
+    margin: 26px 0 10px 0;
+}
+
+._footer_online_list_item {
+    margin: 20px 0;
+}
+
+._footer_online_content{
+   padding-left: 167px;
+   position: absolute;
+
+}
+
+._footer_online_content_2{
+    position: absolute;
+    margin-left: 424px;
+ }
+
+ ._footer_online_content_3{
+    
+    margin-left: 740px;
+    position: absolute;
+ }
+
+ ._footer_online_content_4{
+    margin-left: 1021px;
+    position: absolute;
+ }
+
+._footer_online_content_title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #2E2E2E;
+}
+
+._footer_online_list_link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535353 !important;
+}
+
+._footer_online_social_ic {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+._footer_online_copyright {
+    padding: 80px 0 0 0;
+}
+
+._footer_online_copryright_txt {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #B0B5B4;
+    margin-top: 200px;
+}
+
+
+/*-----------------------------
+    Footer Online Section Ends
+------------------------------*/
+
+/*Footer Under Part*/
+
+._about_online_content_txt{
+    margin:150px 0 0 50px  ;
+    background-color: rgba(220, 220, 220, 0.671);
+    border-radius: 50px;
+    padding: 80px 30px 30px 30px;
+ }
+ 
+ ._about_online_content_title{
+     line-height: 50px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 600;
+     font-size: 28px;
+     color: #2D1D61;
+     margin-left: 50px;
+     
+ }
+ 
+ ._about_online_content_title_2{
+     line-height: 50px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 600;
+     font-size: 28px;
+     color: #2D1D61;
+     margin-left: 500px;
+ }
+ 
+ ._about_online_content_para{
+     margin-left: 50px;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     color: #363049;
+     padding:50px 0 50px 0;
+ }
+ 
+ 
+ /*Footer Under Part End*/
+/* Footer End */
