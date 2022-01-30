@@ -601,17 +601,18 @@ a {
     text-align: center;
   }
   .seller-type {
-    display:inline;
+    display:flex;
     align-items: flex-start;
   }
   .buyer-guides {
     margin-top: 4px;
-    display: inline;
+    display: flex;
     align-items: flex-start;
+    flex-direction: column;
     
   }
   .buyer-guides:not(:last-of-type) {
-    margin-right: 134.12px;
+    margin-right: 334.12px;
    
   }
   .icon {
@@ -680,11 +681,11 @@ a {
 
   .how-it-works-two {
     padding: 117px 112px 53.82px 114px;
-    display:inline;
+    display:flex;
     align-items: flex-start;
   }
   .how-it-works {
-    display: inline;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
@@ -727,12 +728,11 @@ a {
   }
   .seller-type {
     display: flex;
-    
-    align-items:flex-start;
+    align-items: flex-start;
   }
   .buyer-guides {
     margin-top: 4px;
-    display: inline-block;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
