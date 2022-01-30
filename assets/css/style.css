@@ -448,15 +448,11 @@ a {
     flex-direction: column;
     align-items: center;
   }
-  .text {
-    margin-bottom:  0px;
-    padding: 0 0px 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-    
+
+  .text-urun{
+    margin:50px 0 50px 10px ;
   }
+ 
   .urunler {
     width: 12.15%;
     height: 42.68%;
@@ -465,8 +461,7 @@ a {
     font-weight: 600;
     line-height: 35px;
     color: var(--black);
-    margin-bottom: 15px;
-    margin-left: 45px;
+
     
   }
 
@@ -487,15 +482,13 @@ a {
     margin-right: 457px;
   }
   .tum-urunleri-goruntule {
-    max-width: 214px;
-    width:19.85%;
-    height: 84.38%;
     font-family: "Poppins";
     font-size: 18px;
     font-weight: 600;
     line-height: normal;
     color: #0689FF;
     text-align: right;
+    margin:0 0 50px 180px;
     
   }
   .tum-urunleri-goruntule a{
@@ -694,6 +687,7 @@ a {
   }
   .newsletter {
     position: relative;
+    margin: auto;
   }
   .bg {
     width: 1110px;
@@ -800,6 +794,7 @@ a {
 
 ._footer_online_wrapper {
     padding: 80px 0 50px 0;
+
     
 }
 
@@ -813,6 +808,7 @@ a {
 
 ._footer_online_list_wrap {
     margin: 26px 0 10px 0;
+  
 }
 
 ._footer_online_list_item {
@@ -820,24 +816,24 @@ a {
 }
 
 ._footer_online_content{
-   padding-left: 167px;
+   padding-left: 220px;
    position: absolute;
 
 }
 
 ._footer_online_content_2{
     position: absolute;
-    margin-left: 424px;
+    margin-left: 477px;
  }
 
  ._footer_online_content_3{
     
-    margin-left: 740px;
+    margin-left: 797px;
     position: absolute;
  }
 
  ._footer_online_content_4{
-    margin-left: 1021px;
+    margin-left: 1074px;
     position: absolute;
  }
 
