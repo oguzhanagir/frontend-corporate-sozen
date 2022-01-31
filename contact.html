@@ -20,8 +20,18 @@
         <nav class="navbar navbar-expand-lg navbar-light _header_online_navbar">
 
             <div class="navbar-collapse" id="navbarNav">
+                <div class="container-fluid">
+                    <div class="_logo_wrap">
+                        <a class="navbar-brand _logo" href="index.html">
+                            <img class="_nav_logo" src="assets/images/Sözen logo1.png" alt="Logo"></a>
+            
+                    </div>
+                   
+                    
+                </div>
     
-              <ul class="navbar-nav mr-5 _header_online_nav">
+              <ul class="navbar-nav _header_online_nav">
+               
                 <li class="nav-item _header_online_nav_item">
                     <a class="nav-link _header_online_nav_link " href="index.html">Ana Sayfa</a>
                 </li>
@@ -40,15 +50,7 @@
             </ul>
    
             </div>
-            <div class="container-fluid">
-                <div class="_logo_wrap">
-                    <a class="navbar-brand _logo" href="index.html">
-                        <img class="_nav_logo" src="assets/images/Sözen logo1.png" alt="Logo"></a>
-        
-                </div>
-               
-                
-            </div>
+         
         </nav>
 
         <div class="_header_online_wrap">
@@ -58,12 +60,12 @@
     
                            <div class="_header_online_content_txt">
                                <p class="_header_online_content_title3">Hoş Geldiniz</p>
-                                <h4 class="_header_online_content_title1">Şirket Hakkında Açıklama</h4>
+                                <h4 class="_header_online_content_title1 mt-5">İletişim</h4>
                                 <p class="_header_online_content_title2">Şirket Hakkında Alt Açıklama.</p>
                             </div>
     
                             <div class="_header_online_content_btn_wrap">
-                                <button class="_header_online_play_btn" onclick="location.href='about.html#about-text'">Hakkımızda Daha Fazla</button>
+                                <button class="_header_online_play_btn" onclick="location.href='about.html'">Hakkımızda Daha Fazla</button>
                             </div>
                             
                         </div>
@@ -76,41 +78,73 @@
             </div>
         </div>
     </header>
+    <section class="_count_online_wrapper">
+        <div class="container">
+            <div class="row" id="contact_row">        
+                
+                    <div class="contact-text" id="">
+                        <h3 class="_about_online_content_title">İletişim Bilgileri</h3>
+                        <p class="_about_online_content_para"><strong>Telefon Numarası:</strong></p>
+                        <p class="_about_online_content_para"><strong>E-Posta:</strong> contact@sozencit.com</p>
+                        <p class="_about_online_content_para"><strong>Adres: </strong></p>
+                    </div>
     
-
-
-  <!-- About Start -->
+                    <div class="contact-text-input">
+                        <h3 class="contact-title2">Bizim ile İletişime Geçin</h3>
+                        <!-- <p class="_about_online_content_para">Şirketimiz her müşteriye özenle yaklaşır.</p> -->
+                
+                        <div class="contact-div ">
+                            <div class="wrap-input100 " data-validate="Lütfen Adınızı ve Soyadınızı Giriniz.">
+                                <input class="input100" type="text" id="inputName" name="name" placeholder="Adınız ve Soyadınız">
+                                <span class="focus-input100"></span>
+                                <span class="symbol-input100">
+                                    <i class="fas fa-user-friends" aria-hidden="true"></i>
+                                </span>
+                            </div>
+            
+                            <div class="wrap-input100 " data-validate="Lütfen Telefon Numaranızı Giriniz">
+                                <input class="input100" type="text" name="phone" id="inputPhone" placeholder="Telefon Numaranızı Giriniz.">
+                                <span class="focus-input100"></span>
+                                <span class="symbol-input100">
+                                    <i class="fas fa-phone" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                            
+                            <div class="wrap-input100 " data-validate="Lütfen E-Posta Adresini Giriniz">
+                                <input class="input100" type="text" name="email" id="inputEmail" placeholder="E-Posta Adresiniz">
+                                <span class="focus-input100"></span>
+                                <span class="symbol-input100">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </span>
+                            </div>
+            
+                            
+                            <div class="wrap-input100 " data-validate="Lütfen Mesajınızı Giriniz">
+                                <input class="input100" type="text" name="message" id="inputMesaj" placeholder="Mesajınız">
+                                <span class="focus-input100"></span>
+                                <span class="symbol-input100">
+                                    <i class="fas fa-inbox" aria-hidden="true"></i>
+                                </span>
+                            </div>
     
-  <div class="feature-02-two">
-    <div class="feature-02">
-      <div class="flex-wrapper-one">
-        <img
-          alt=""
-          class="image"
-          src="https://static.overlay-tech.com/assets/bccff9d2-f835-4496-bb28-78fb89b0c1fc.png"
-        />
-        <div class="flex-wrapper-two">
-          <div class="text">
-            <div class="rectangle-64"></div>
-            <p class="sirket-hakkinda-baslik">
-              Şirket Hakkında Başlık
-            </p>
-            <p class="sirket-hakkinda-aciklamalar">
-              Şirket Hakkında Açıklamalar
-            </p>
-          </div>
-          <div class="button-sell-full-guidelines">
-
-            
-                <button class="_header_online_play_btn-2 " onclick="location.href='about.html#about-text'">Daha Fazla</button>
-            
-          </div>
+                            <div class="_header_online_content_btn_wrap_2">
+                                <button class="_header_online_play_btn_2" id="btn_contact" onclick="smtpMail()">Gönder</button>
+                            </div>
+    
+                            
+                        </div>
+                </div>
+    
+                    <div class="google-maps">
+                        <div class="google-maps-div" style="width: 80%">
+                            <!-- <iframe width="850" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Atat%C3%BCrk%20Blv.%20No:129,%20Altay,%2045400%20Turgutlu/Manisa+(ELS%20Yaz%C4%B1l%C4%B1m)&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                                <a href="https://www.gps.ie/sport-gps/">ELS Yazılım</a>
+                            </iframe> -->
+                        </div>
+                    </div>
+            </div>
         </div>
-      </div>
-      <div class="countdown"></div>
-    </div>
-  </div>
-  <!-- About End -->
+    </section>
 
 
   <!-- Newsletter Start -->
@@ -136,10 +170,7 @@
   <!-- Footer -->
   <footer class="_footer_online_wrapper">
     <div class="_footer_online_wrap">
-        <div class="container">
-            <div class="row">
-                
-                
+        
                 
                     <div class="_footer_online_content">
                         <h4 class="_footer_online_content_title">Menü</h4>
@@ -246,16 +277,13 @@
                 </div>
             </div>
             <div class="_footer_online_copyright">
-                <div class="row">
                     <div class="">
                         <p class="_footer_online_copryright_txt">© Copyright 2022 Elmas Yazılım Tüm Hakları Saklıdır.</p>
                     </div>
-                </div>
             </div>
-        </div>
+        
     </div>
 </footer>
-
 
 
 

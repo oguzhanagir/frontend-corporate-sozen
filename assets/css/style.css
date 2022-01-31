@@ -24,6 +24,7 @@ body {
     padding: 0px;
      background-color: #E6F0FF !important; 
     overflow-x: hidden; 
+    border: 0;
     
     }
 
@@ -106,54 +107,38 @@ a {
 
 }
 
-._logo_wrap {
-    margin-right: 50px;
-}
 
-._header_online_nav {
-    margin-left: 65%;
-    padding-top: 50px ;
-
-}
 
 ._header_online_nav_item {
-    margin: 0 6px;
-    display: inline !important;
-    list-style: none !important;
-
+    margin-left: 12px;
+    background-color: #E6F0FF;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 5px 5px 5px 5px;
 }
-
-
-
-
 ._nav_logo {
-    width: 10%;
-    height: 10%;
-    
-    display: inline-block;
+    width: 20%;
+    height: 20%;
     margin-left: 200px;
     
 }
 
 
 ._header_online_nav_link {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 16px;
+    line-height: 20px;
+    
     color: #2D1D61 !important;
-    -webkit-transition: .2s all ease;
-    -o-transition: .2s all ease;
-    transition: .2s all ease;
+   
     
 }
-/*
+
 ._header_online_nav_link:hover {
-    
-    color: #7951F9 !important;
+
 }
-*/
 
 
 ._header_online_nav_right {
@@ -200,22 +185,6 @@ a {
     
 }
 
-._header_online_navbar {
-    background-color:transparent !important;
-    margin-right: 100px;  
-
-}
-
-._logo_wrap {
-    margin-right: 50px;
-}
-
-._header_online_nav {
-    margin-left: 55%;
-    padding-top: 50px ;
-
-}
-
 ._header_online_nav_item {
     margin: 0 6px;
     display: inline !important;
@@ -229,23 +198,19 @@ a {
 ._nav_logo {
     width: 10%;
     height: 10%;
-    
-    display: inline-block;
     margin-left: 100px;
-    
 }
 
 
 ._header_online_nav_link {
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 21px;
     color: #2D1D61 !important;
-    -webkit-transition: .2s all ease;
-    -o-transition: .2s all ease;
-    transition: .2s all ease;
+    display: inline-block !important;
+
     
 }
 /*
@@ -254,14 +219,6 @@ a {
     color: #7951F9 !important;
 }
 */
-
-
-._header_online_nav_right {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
 
 
 ._header_online_nav_btn {
@@ -273,7 +230,7 @@ a {
     padding: 13px 20px !important;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 24px;
     color: var(--bg2) !important;
     border: 1px solid var(--bg2);
@@ -297,12 +254,10 @@ a {
 
 ._header_online_img{
     position: absolute;
-    width: 552px;
-    height: 528px;
+    width: 500px;
+    height: 500px;
     left: 887px;
-    top: 177px;
-
-
+    top: 200px;
 }
 
 ._header_online_content {
@@ -311,11 +266,13 @@ a {
     height: 381px;
     left: 200px;
     top: 208px;
+  
 }
 
 ._header_online_content_txt{
     position: relative;
     margin-top: 50px;
+    
     
 }
 ._header_online_content_title1 {
@@ -323,15 +280,16 @@ a {
     width: 538px;
     height: 152px;
     top: 50px;
-
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 58px;
     line-height: 76px;
-    /* or 119% */
     color: #000336;
 }
+
+
+
 
 
 ._header_online_content_title2 {
@@ -371,12 +329,9 @@ a {
 
 }
 
-
-
-
 ._header_online_content_btn_wrap {
     position: absolute;
-    top: 450px;
+    top: 420px;
 }
 
 
@@ -391,22 +346,9 @@ a {
     width: 190px;
     height: 60px;
     border-radius: 12px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
     background: #0F1B4C;
-    -webkit-box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
-    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
-    border: none;
-    transition:.2s all ease;
     color: #fff;
-    font-family: Poppins;
+    font-family: 'Poppins',sans-serif;
     font-weight: 500;
 }
 
@@ -519,22 +461,9 @@ a {
     width: 190px;
     height: 60px;
     border-radius: 12px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
     background: #0F1B4C;
-    -webkit-box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
-    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
-    border: none;
-    transition:.2s all ease;
     color: #fff;
-    font-family: Poppins;
+    font-family: 'Poppins',sans-serif;
     font-weight: 500;
 }
 
@@ -553,43 +482,32 @@ a {
 
 
 /* Services Start */
-.how-it-works-two {
-    padding: 117px 152px 93.82px 194px;
-    display: flex;
-    align-items: flex-start;
-  }
   .how-it-works {
+    padding: 117px 152px 93.82px 194px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
   .text {
-    margin-bottom: 118px;
-    margin-left: 222px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+  
   }
-  .rectangle-64 {
-    width: 54.32px;
-    height: 4px;
-    background-color: var(--black);
-    margin-bottom: 15px;
-    margin-left: 275.56px;
-    border-radius: 12px;
-  }
+
   .hizmetlerimiz {
     height: 36px;
     width: 356.37px;
+    text-align: center;
     font-family: "Poppins";
     font-size: 35px;
     font-weight: 600;
     line-height: 35px;
     color: var(--black);
-    display: flex;
-    text-align: center;
-    margin-bottom: 15px;
-    margin-left: 180px;
+
+    margin: auto;
+  
   }
   .sirketin-hizmetleri-hakkinda-aciklama {
     width: 608.08px;
@@ -601,8 +519,13 @@ a {
     text-align: center;
   }
   .seller-type {
-    display:flex;
-    align-items: flex-start;
+    margin: auto;
+    background-color: #e8eff8;
+    border-radius: 30px;
+    padding: 100px 100px 100px 100px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+
   }
   .buyer-guides {
     margin-top: 4px;
@@ -774,16 +697,7 @@ a {
     left: 20px;
     bottom: -0.01px;
   }
-  .icon-two {
-    width: 63.59px;
-    height: 44.95px;
-  }
-  .icon-three {
-    width: 65.61px;
-    height: 47.97px;
-    margin-bottom: 49.12px;
-    margin-left: 157.11px;
-  }
+
   .tel-oergue-imalat-ve-montaj {
     height: 14.91px;
     width: 354px;
@@ -832,6 +746,7 @@ a {
   .flex-wrapper-one {
     display: flex;
     align-items: flex-start;
+    margin-top: 80px;
   }
   .ueruenler-hakkinda-kisa-aciklama {
     width: 37.76%;
@@ -1295,6 +1210,7 @@ a {
   .newsletter {
     position: relative;
     margin: auto;
+    
   }
   .bg {
     width: 1110px;
@@ -1304,6 +1220,7 @@ a {
     position: absolute;
     left: 0;
     bottom: 0;
+    
   }
   .rectangle-4284 {
     width: 1110px;
@@ -1326,9 +1243,10 @@ a {
     font-weight: 600;
     line-height: 35px;
     color: rgba(255, 255, 255, 1);
-    display: flex;
-    text-align: center;
     margin-bottom: 15px;
+    text-align: center;
+    
+    
   }
   .kisa-aciklama {
     height: 30px;
@@ -1338,7 +1256,6 @@ a {
     font-weight: 400;
     line-height: 30px;
     color: rgba(255, 255, 255, 1);
-    display: flex;
     text-align: center;
     margin-bottom: 15px;
     opacity: 0.75;
@@ -1622,7 +1539,7 @@ a {
      font-family: 'Poppins', sans-serif;
      font-weight: 600;
      font-size: 28px;
-     color: #2D1D61;
+     color: #000336;
      margin-left: 50px;
      
  }
@@ -1641,7 +1558,7 @@ a {
      font-family: 'Poppins', sans-serif;
      font-weight: 500;
      font-size: 16px;
-     color: #363049;
+     color: #000336;
      padding:50px 0 50px 0;
  }
  
@@ -1794,3 +1711,159 @@ a {
 /*Footer Under Part End*/
 
 /* Footer Responsive-END */
+
+
+
+/* Contact Start */
+
+
+
+._count_online_wrapper {
+  padding:100px 0 100px 0;
+
+}
+
+._count_online_content_txt {
+  text-align: center;
+  /* background-color: #F0ECFF; */
+
+}
+
+._count_online_content_title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 50px;
+  color: #2D1D61;
+}
+
+._count_online_content_para {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  color: #363049;
+  padding-top: 50px;
+}
+
+
+
+/* Contact İnput */
+
+.contact-div{
+  float: right;
+  
+  
+}
+
+.contact-text{
+  margin-top: 100px;
+
+}
+.contact-text-input{
+  margin-top: 100px;
+  margin-left: 350px;
+  
+}
+.contact-title2{
+  line-height: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  color: #000336;
+
+}
+
+.wrap-input100 {
+  position:relative;
+  width: 350px;
+  z-index: 1;
+  margin-top: 60px;
+  
+  
+  
+}
+
+.input100 {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #000336;
+  display: block;
+  width: 350px;
+  background-color: whitesmoke;
+  height: 50px;
+  border-radius: 20px;
+  padding: 0 30px 0 68px;
+  
+}
+
+
+._header_online_content_btn_wrap_2 {
+  margin: 70px 0 0 0;
+}
+
+._header_online_play_btn_2 {
+  width: 190px;
+  height: 60px;
+  border-radius: 5px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #000336;
+  -webkit-box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+  border: none;
+  transition:.2s all ease;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin-left: 75px;
+  
+  
+}
+
+._header_online_play_btn_2:hover {
+  background: #0003369c;
+  
+}
+._header_online_play_btn_2 path {
+  transition:.2s all ease;
+}
+._header_online_play_btn_2:hover path {
+  fill:#fff;
+}
+#contact_row{
+  background-color: #edf3fc ;
+  border-radius: 80px;
+  margin-top: 150px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+/*Google maps*/
+
+.google-maps{
+  background-color: #0d081b;
+  width: 84%;
+  height: 85%;
+  border-radius: 50px;
+  margin: auto;
+  margin-bottom: 80px;
+  margin-top: 50px;
+  
+ 
+}
+.google-maps-div{
+  margin: 50px 50px 50px 50px;
+  width: 80%;
+
+}
+
+/* Contact İnput END */
